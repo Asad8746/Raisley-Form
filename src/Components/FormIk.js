@@ -49,7 +49,8 @@ const MyForm = () => {
         .oneOf(
           [yup.ref("password"), ""],
           "Confirm Password must match Password"
-        ),
+        )
+        .required(),
     }),
     onSubmit: (values) => {
       sendReq(values);
