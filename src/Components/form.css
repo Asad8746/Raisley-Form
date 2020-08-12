@@ -2,7 +2,7 @@
 #form-container {
   position: absolute;
   left: 50%;
-  top: 50%;
-  width: 80%;
+  top: 40%;
+  width: 40%;
   transform: translate(-50%, -50%);
 }
