@@ -50,7 +50,7 @@ const MyForm = () => {
           [yup.ref("password"), ""],
           "Confirm Password must match Password"
         )
-        .required(),
+        .required("Confirm Password is required"),
     }),
     onSubmit: (values) => {
       sendReq(values);
